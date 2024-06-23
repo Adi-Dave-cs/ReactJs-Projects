@@ -51,7 +51,12 @@ export default function CountryDetails() {
   if (notFound || countryData == undefined || countryData == null) {
     return <Error />;
   }
-  return countryData == undefined || countryData == null ? (
+  return countryData == undefined ||
+    countryData == null ||
+    countryData?.flag == null ||
+    countryData?.flag == undefined ||
+    countryData?.coatOfArms == null ||
+    countryData?.coatOfArms == undefined ? (
     <>
       <div className={`wfull`}>
         <button className="NavButton" onClick={goback}>
