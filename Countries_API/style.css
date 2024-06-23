@@ -1,0 +1,250 @@
+* {
+  transition: all 250ms;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  border-bottom: 2px solid rgba(100, 100, 100, 0.554);
+}
+
+.fontCursive {
+  font-family: cursive;
+}
+
+.leftSpace {
+  margin-left: 5%;
+}
+
+.rightSpace {
+  margin-right: 5%;
+}
+
+.fontVerdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fontItalic {
+  font-style: italic;
+}
+
+.NavButton {
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 5px rgba(104, 104, 104, 0.577);
+}
+
+.section-container {
+  display: flex;
+  padding: 5%;
+  justify-content: space-between;
+}
+
+.search {
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 30vw;
+  background-color: var(--color);
+  color: var(--bg-color);
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 30vw;
+  height: 4vh;
+  background-color: white;
+  color: black;
+}
+
+.searchButton {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 5vw;
+  height: 5vh;
+}
+
+.Lov {
+  padding: 0.5%;
+  display: flex;
+  gap: 0.5rem;
+  border-radius: 5px;
+}
+
+.CountryDet {
+  width: 90vw;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1rem;
+  height: max-content;
+  padding: 2%;
+}
+
+.card {
+  height: max-content;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px rgb(67, 67, 67);
+}
+
+.image_container,
+.description {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.information {
+  margin-left: 2%;
+  font-family: monospace;
+  text-align: left;
+  text-wrap: wrap;
+}
+
+.title {
+  margin-left: 2%;
+  font-size: large;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  text-wrap: wrap;
+}
+
+img {
+  border-radius: 10px;
+  width: 20vw;
+  height: 40%;
+}
+.NavButton img {
+  border-radius: 10px;
+  width: 2vw;
+  height: 20%;
+}
+
+.fontLarge {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.borderless {
+  border: none;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.wfull {
+  position: relative;
+  width: 100vw;
+  height: 10vh;
+}
+
+.card_cd {
+  height: max-content;
+  width: 90vw;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px rgb(67, 67, 67);
+}
+
+.image_container_cd {
+  margin: 2%;
+  height: max-content;
+  width: 40%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.description_cd {
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.image_container_cd img {
+  border-radius: 20px;
+  height: max-content;
+}
+
+.full_screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error_body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wfull .NavButton {
+  background-color: cornflowerblue;
+  position: absolute;
+  margin: 2%;
+  left: 0%;
+}
+
+.information .linkbox {
+  width: max-content;
+  height: max-content;
+  align-self: center;
+  padding: 1%;
+  text-decoration: underline;
+}
