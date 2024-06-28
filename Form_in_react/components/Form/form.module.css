@@ -1,0 +1,58 @@
+.form {
+  width: 90vw;
+  height: max-content;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1.5rem;
+  box-shadow: 0 0 15px gray;
+  background: linear-gradient(to bottom, blue, cyan);
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.form input,
+.form select {
+  height: 2rem;
+}
+
+.dataTable {
+  margin: auto;
+  width: 90vw;
+  height: max-content;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1.5rem;
+}
+
+.bordered {
+  border: 2px solid black;
+  position: relative;
+}
+
+.noBorder {
+  border: none;
+  outline: none;
+}
+
+.sortBy {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+select[name="filter"] {
+  width: 20px;
+  outline: none;
+}
+
+.largeFont {
+  width: 70px;
+  background-color: red;
+  font-size: 1.5rem;
+}
