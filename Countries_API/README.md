@@ -5,7 +5,6 @@ The Countries API project is a web application built with ReactJS that allows us
 ## Demonstration
 
 - Visit the URL for demonstration [Project](https://www.youtube.com/watch?v=3JZaZKSXZAI)
-
 ## Table of Contents
 
 - Introduction
