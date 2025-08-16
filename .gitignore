@@ -1,4 +1,2 @@
-.vscode
-node_modules
-.parcel-cache
-.babelrc
+*/.env
+.node_modules
